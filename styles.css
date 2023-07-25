@@ -1,59 +1,10 @@
 body {
-	font-family: 'Belanosima', sans-serif;
-	background: #000;
-}
-
-#tapThis {
+	margin: auto;
 	background-color: black;
-	cursor: pointer;
+	padding: 10px auto;
+	font-family: 'Tektur', cursive;
 }
 
-h1 {
-	color: #fff;
-	text-align: center;
-}
-
-nav {
-	float: right;
-	font-size: 20px;
-	margin-right: 5px;
-}
-
-a {
-	color: black;
-}
-
-.animated-word {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	font-size: 50px;
-}
-
-.letter {
-  	transition: transform 0.4s;
-  	transform: translateX(0);
-  	cursor: grab;
-  	color: #000;
-}
-
-.letter:hover {
-  	transform: translateY(-1rem);
-  	background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
-.comma {
-  	transition: transform 0.4s;
-  	transform: translateX(0);
-  	cursor: pointer;
-  	color: #000;
-}
-
-.comma:hover {
-	transform: translateY(-1rem);
-	background: -webkit-linear-gradient(120deg, hsl(29, 100%, 62%), hsl(66, 100%, 60%));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+h1, h2, h3, h4, h5, h6, p {
+	color: white;
 }
