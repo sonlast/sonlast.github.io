@@ -18,6 +18,9 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
 a {
 	color: white;
 	text-decoration: none;
@@ -33,10 +36,10 @@ nav {
 	float: right;
 }
 
-img {
-	object-position: center;
-}
-
-img:hover {
-	opacity: 0.5;
+.centerimage {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	display: block;
+	border-radius: 50px;
 }
