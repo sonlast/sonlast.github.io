@@ -18,8 +18,14 @@ h1 {
 	text-align: center;
 }
 
-h3 {
+.intro {
+	padding-left: 26%;
+}
+
+.skills {
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 a {
 	color: white;
