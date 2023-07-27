@@ -5,7 +5,7 @@ body {
 	font-family: 'Tektur', cursive;
 }
 
-main:not(.h1not) {
+main {
 	padding: 75px 20px;
 }
 
@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
 	font-size: 50px;
+	text-align: center;
 }
 
 a {
@@ -32,11 +33,10 @@ nav {
 	float: right;
 }
 
-.centerthis {
-	padding: 50px 2px 200px 400px;
+img {
+	object-position: center;
 }
 
 img:hover {
 	opacity: 0.5;
-
 }
