@@ -5,18 +5,16 @@ body {
 	font-family: 'Tektur', cursive;
 }
 
-main {
-	padding: 20px 20px;
-}
-
-.nav-bar {
-	background-color: white;
-	padding: 10px;
-	text-align: center;
+main:not(.h1not) {
+	padding: 75px 20px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
 	color: white;
+}
+
+h1 {
+	font-size: 50px;
 }
 
 a {
@@ -32,4 +30,13 @@ a:hover {
 nav {
 	padding: 15px 20px;
 	float: right;
+}
+
+.centerthis {
+	padding: 50px 2px 200px 400px;
+}
+
+img:hover {
+	opacity: 0.5;
+
 }
