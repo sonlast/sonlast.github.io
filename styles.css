@@ -49,3 +49,29 @@ nav {
 	display: block;
 	border-radius: 50px;
 }
+.ghbtn {
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;;
+	border-color: #ffffff;
+	width: 100px;
+	height: 30px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Tektur', cursive;
+}
+
+.ghbtn:hover {
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+	cursor: pointer;
+}
+
+.prjctlst, li {
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 10px;
+}
