@@ -28,13 +28,13 @@ h1 {
 	padding-bottom: 5px;
 }
 
-.links {
+a {
 	color: white;
 	text-decoration: none;
 	padding: 20px;
 }
 
-.links:hover {
+a:hover {
 	color: #ff0000;
 }
 
