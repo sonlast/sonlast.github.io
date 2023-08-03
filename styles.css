@@ -27,13 +27,14 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
-a {
+
+.links {
 	color: white;
 	text-decoration: none;
 	padding: 20px;
 }
 
-a:hover {
+.links:hover {
 	color: #ff0000;
 }
 
@@ -52,6 +53,7 @@ nav {
 .ghbtn {
 	margin: 0 auto;
 	display: block;
+	padding: 0;
 	border-radius: 10px;;
 	border-color: #ffffff;
 	width: 100px;
