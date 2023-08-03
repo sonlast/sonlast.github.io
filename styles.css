@@ -10,7 +10,7 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	color: white;
+	color: #FFFFFF;
 }
 
 h1 {
@@ -29,13 +29,14 @@ h1 {
 }
 
 a {
-	color: white;
+	color: #ffffff;
 	text-decoration: none;
 	padding: 10px;
 }
 
 a:hover {
 	color: #666666;
+	text-decoration-line: line-through;
 }
 
 nav {
@@ -68,6 +69,7 @@ nav {
 	background-color: #ffffff;
 	color: #000000;
 	cursor: pointer;
+	text-decoration: line-through;
 }
 
 .prjctlst, li {
