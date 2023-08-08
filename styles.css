@@ -7,7 +7,7 @@ body {
 }
 
 main {
-	padding: 75px 70px 20px;
+	padding: 75px 75px 75px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -94,6 +94,6 @@ a.projects {
 }
 
 a.projects:hover {
-	color: #ffffff;
+	color: #948484;
 	text-decoration: line-through;
 }
