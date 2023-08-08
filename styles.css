@@ -46,6 +46,10 @@ h3.skills {
 	padding-bottom: 5px;
 }
 
+h3.skills:hover {
+	text-decoration: wavy;
+}
+
 img.centerimage {
 	width: 200px;
 	height: 200px;
