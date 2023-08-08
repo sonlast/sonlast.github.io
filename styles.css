@@ -1,3 +1,4 @@
+/* ! UNIVERSAL CSS */
 body {
 	margin: 20px 20px 20px 20px;
 	background-color: black;
@@ -18,23 +19,23 @@ h1 {
 	text-align: center;
 }
 
-.intro {
+h3.intro {
 	padding-left: 26%;
 }
 
-.skills {
+h3.skills {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
 
-a {
+a.links {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 10px;
 }
 
-a:hover {
+a.links:hover {
 	color: #666666;
 	text-decoration-line: line-through;
 }
@@ -44,15 +45,15 @@ nav {
 	float: right;
 }
 
-.centerimage {
-	width: 100px;
-	height: 100px;
+img.centerimage {
+	width: 200px;
+	height: 200px;
 	margin: auto;
 	display: block;
-	border-radius: 50px;
+	border-radius: 50%;
 }
 
-.ghbtn {
+button.ghbtn {
 	margin: 0 auto;
 	display: block;
 	border-radius: 10px;;
@@ -62,9 +63,10 @@ nav {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: 'Tektur', cursive;
+	text-decoration: none;
 }
 
-.ghbtn:hover {
+button.ghbtn:hover {
 	border-color: #000000;
 	background-color: #ffffff;
 	color: #000000;
@@ -72,10 +74,24 @@ nav {
 	text-decoration: line-through;
 }
 
-.prjctlst, li {
+h3.center_this {
+	text-align: center;
+}
+
+ul.prjctlst, li {
 	padding: 10px;
 	color: #ffffff;
 	text-align: center;
 	list-style-type: none;
 	padding-bottom: 10px;
+}
+
+a.projects {
+	color: #000293;
+	text-decoration: none;
+}
+
+a.projects:hover {
+	color: #ffffff;
+	text-decoration: line-through;
 }
