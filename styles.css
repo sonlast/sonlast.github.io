@@ -40,13 +40,13 @@ h3.intro {
 	padding-left: 26%;
 }
 
-h3.skills {
+h3.descr {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
 
-h3.skills:hover {
+h3.descr:hover {
 	text-decoration: wavy;
 }
 
