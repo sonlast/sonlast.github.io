@@ -7,7 +7,7 @@ body {
 }
 
 main {
-	padding: 75px 75px 75px;
+	padding: 75px 75px 75px;	
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -98,6 +98,19 @@ a.projects {
 }
 
 a.projects:hover {
+	color: #948484;
+	text-decoration: line-through;
+}
+
+/* ! aboutme.html CSS */
+
+/* ! contact.html CSS */
+a.contactlink1 {
+	color: #0773ff;
+	text-decoration: none;
+}
+
+a.contactlink1:hover {
 	color: #948484;
 	text-decoration: line-through;
 }
