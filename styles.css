@@ -80,26 +80,12 @@ button.ghbtn:hover {
 	text-decoration: line-through;
 }
 
-h3.center_this {
-	text-align: center;
-}
-
 ul.prjctlst, li {
 	padding: 10px;
 	color: #ffffff;
 	text-align: center;
 	list-style-type: none;
 	padding-bottom: 10px;
-}
-
-a.projects {
-	color: #0773ff;
-	text-decoration: none;
-}
-
-a.projects:hover {
-	color: #948484;
-	text-decoration: line-through;
 }
 
 /* ! aboutme.html CSS */
