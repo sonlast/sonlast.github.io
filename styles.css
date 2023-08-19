@@ -100,3 +100,15 @@ a.contactlink1:hover {
 	color: #948484;
 	text-decoration: line-through;
 }
+
+#project_sect {
+	padding: 10px;
+}
+
+#aboutme_sect {
+	padding: 10px;
+}
+
+#contact_sect {
+	padding: 10px;
+}
