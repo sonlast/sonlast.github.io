@@ -89,6 +89,19 @@ ul.prjctlst, li {
 }
 
 /* ! aboutme.html CSS */
+p.aboutme_parg {
+	text-align: center;
+}
+
+a.my_email {
+	color: #666666;
+	text-decoration: none;
+}
+
+a.my_email:hover {
+	color: #ffffff;
+	text-decoration: line-through;
+}
 
 /* ! contact.html CSS */
 a.contactlink1 {
