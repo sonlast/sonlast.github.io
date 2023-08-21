@@ -103,6 +103,32 @@ a.my_email:hover {
 	text-decoration: line-through;
 }
 
+a.dlbutton {
+	text-decoration: none;
+}
+
+button.dlbutton {
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;;
+	border-color: #ffffff;
+	width: 150px;
+	height: 30px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Tektur', cursive;
+	text-decoration: none;
+}
+
+button.dlbutton:hover {
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+	cursor: alias;
+	text-decoration: line-through;
+}
+
+
 /* ! contact.html CSS */
 a.contactlink1 {
 	color: #0773ff;
