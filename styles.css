@@ -35,7 +35,7 @@ nav {
 	float: right;
 }
 
-/* ! index.html CSS */
+/* ! index CSS */
 h3.intro {
 	padding-left: 26%;
 }
@@ -44,10 +44,14 @@ h3.descr {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 5px;
+	transition-property: font-size;
+	transition-duration: 4s;
+	transition-delay: 2s;
 }
 
 h3.descr:hover {
 	text-decoration: wavy;
+	font-size: 10px;
 }
 
 img.centerimage {
@@ -58,7 +62,7 @@ img.centerimage {
 	border-radius: 50%;
 }
 
-/* ! projects.html CSS */
+/* ! projects CSS */
 button.ghbtn {
 	margin: 0 auto;
 	display: block;
@@ -88,9 +92,10 @@ ul.prjctlst, li {
 	padding-bottom: 10px;
 }
 
-/* ! aboutme.html CSS */
+/* ! aboutme CSS */
 p.aboutme_parg {
 	text-align: center;
+	line-height: 3.7;
 }
 
 a.my_email {
@@ -124,12 +129,29 @@ button.dlbutton:hover {
 	border-color: #000000;
 	background-color: #ffffff;
 	color: #000000;
-	cursor: alias;
+	cursor: pointer;
 	text-decoration: line-through;
 }
 
+/* !  skills CSS */
+h2.h2_lang {
+	text-align: center;
+}
 
-/* ! contact.html CSS */
+ul.list_lang {
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 10px;
+	columns: 50px 4;
+}
+
+/* ! contact CSS */
+section.contact_sect {
+	text-align: center;
+}
+
 a.contactlink1 {
 	color: #0773ff;
 	text-decoration: none;
@@ -148,6 +170,13 @@ a.contactlink1:hover {
 	padding: 10px;
 }
 
+#skills_sect {
+	padding-top: 10px;
+}
+
 #contact_sect {
-	padding: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 100px;
+	padding-left: 10px;
 }
