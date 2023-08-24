@@ -1,182 +1,158 @@
+/* ! extensions */
+.white-text, h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #ffffff;
+  font-family: "Tektur", cursive;
+}
+
+.buttons, button.dlbutton, button.ghbtn {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  border-color: #ffffff;
+  width: 150px;
+  height: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Tektur", cursive;
+  text-decoration: none;
+}
+
+.sectionz, #skills_sect, #aboutme_sect, #project_sect {
+  padding: 10px;
+  text-align: center;
+}
+
 /* ! UNIVERSAL CSS */
 body {
-	margin: 20px 20px 20px 20px;
-	background-color: black;
-	padding: 10px auto;
-	font-family: 'Tektur', cursive;
+  margin: 20px;
+  padding: 10px auto;
+  background-color: #000000;
+  font-family: "Tektur", cursive;
 }
 
 main {
-	padding: 75px 75px 75px;	
-}
-
-h1, h2, h3, h4, h5, h6, p {
-	color: #FFFFFF;
+  padding: 75px 75px 75px;
 }
 
 h1 {
-	font-size: 50px;
-	text-align: center;
+  font: 50px "Tektur", cursive;
+  text-align: center;
 }
 
 a.links {
-	color: #ffffff;
-	text-decoration: none;
-	padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
 }
 
 a.links:hover {
-	color: #666666;
-	text-decoration-line: line-through;
+  color: #666666;
+  text-decoration-line: line-through;
 }
 
 nav {
-	padding: 15px 20px;
-	float: right;
+  padding: 15px 20px;
+  float: right;
 }
 
 /* ! index CSS */
 h3.intro {
-	padding-left: 26%;
-}
-
-h3.descr {
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	transition-property: font-size;
-	transition-duration: 4s;
-	transition-delay: 2s;
-}
-
-h3.descr:hover {
-	text-decoration: wavy;
-	font-size: 10px;
+  padding-left: 26%;
 }
 
 img.centerimage {
-	width: 200px;
-	height: 200px;
-	margin: auto;
-	display: block;
-	border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
 }
 
 /* ! projects CSS */
-button.ghbtn {
-	margin: 0 auto;
-	display: block;
-	border-radius: 10px;;
-	border-color: #ffffff;
-	width: 100px;
-	height: 30px;
-	background-color: #000000;
-	color: #ffffff;
-	font-family: 'Tektur', cursive;
-	text-decoration: none;
-}
-
 button.ghbtn:hover {
-	border-color: #000000;
-	background-color: #ffffff;
-	color: #000000;
-	cursor: pointer;
-	text-decoration: line-through;
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: line-through;
 }
 
-ul.prjctlst, li {
-	padding: 10px;
-	color: #ffffff;
-	text-align: center;
-	list-style-type: none;
-	padding-bottom: 10px;
+ul.prjctlst,
+li {
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 10px;
 }
 
 /* ! aboutme CSS */
 p.aboutme_parg {
-	text-align: center;
-	line-height: 3.7;
+  text-align: center;
+  line-height: 3.7;
 }
 
 a.my_email {
-	color: #666666;
-	text-decoration: none;
+  color: #666666;
+  text-decoration: none;
 }
 
 a.my_email:hover {
-	color: #ffffff;
-	text-decoration: line-through;
+  color: #ffffff;
+  text-decoration: line-through;
 }
 
 a.dlbutton {
-	text-decoration: none;
-}
-
-button.dlbutton {
-	margin: 0 auto;
-	display: block;
-	border-radius: 10px;;
-	border-color: #ffffff;
-	width: 150px;
-	height: 30px;
-	background-color: #000000;
-	color: #ffffff;
-	font-family: 'Tektur', cursive;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 button.dlbutton:hover {
-	border-color: #000000;
-	background-color: #ffffff;
-	color: #000000;
-	cursor: pointer;
-	text-decoration: line-through;
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: line-through;
 }
 
 /* !  skills CSS */
 h2.h2_lang {
-	text-align: center;
+  text-align: center;
 }
 
 ul.list_lang {
-	padding: 10px;
-	color: #ffffff;
-	text-align: center;
-	list-style-type: none;
-	padding-bottom: 10px;
-	columns: 50px 4;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 10px;
+  -moz-columns: 50px 4;
+       columns: 50px 4;
 }
 
 /* ! contact CSS */
 section.contact_sect {
-	text-align: center;
+  text-align: center;
 }
 
 a.contactlink1 {
-	color: #0773ff;
-	text-decoration: none;
+  color: #0773ff;
+  text-decoration: none;
 }
 
 a.contactlink1:hover {
-	color: #948484;
-	text-decoration: line-through;
-}
-
-#project_sect {
-	padding: 10px;
-}
-
-#aboutme_sect {
-	padding: 10px;
-}
-
-#skills_sect {
-	padding-top: 10px;
+  color: #666666;
+  text-decoration: line-through;
 }
 
 #contact_sect {
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 100px;
-	padding-left: 10px;
-}
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+}/*# sourceMappingURL=styles.css.map */

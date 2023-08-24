@@ -1,0 +1,155 @@
+/* ! extensions */
+$primary-color: #ffffff
+$secondary-color: #000000
+$tertiary-color: #666666
+
+.white-text
+    color: $primary-color
+    font-family: 'Tektur', cursive
+
+.buttons
+    margin: 0 auto
+    display: block
+    border-radius: 10px
+    border-color: $primary-color
+    width: 150px
+    height: 30px
+    background-color: $secondary-color
+    color: $primary-color
+    font-family: 'Tektur', cursive
+    text-decoration: none
+
+.sectionz 
+    padding: 10px
+    text-align: center
+
+/* ! UNIVERSAL CSS */
+body
+    margin: 20px
+    padding: 10px auto
+    background-color: $secondary-color
+    font-family: 'Tektur', cursive
+
+main
+    padding: 75px 75px 75px
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+    @extend .white-text
+
+h1
+    font: 50px 'Tektur', cursive
+    text-align: center
+
+a.links
+    color: $primary-color
+    text-decoration: none
+    padding: 10px
+
+a.links:hover
+    color: $tertiary-color
+    text-decoration-line: line-through
+
+nav
+    padding: 15px 20px
+    float: right
+
+/* ! index CSS */
+h3.intro
+    padding-left: 26%
+
+img.centerimage
+    width: 200px
+    height: 200px
+    margin: auto
+    display: block
+    border-radius: 50%
+
+/* ! projects CSS */
+button.ghbtn
+        @extend .buttons
+
+button.ghbtn:hover
+    border-color: $secondary-color
+    background-color: $primary-color
+    color: $secondary-color
+    cursor: pointer
+    text-decoration: line-through
+
+ul.prjctlst,
+li
+    padding: 10px
+    color: $primary-color
+    text-align: center
+    list-style-type: none
+    padding-bottom: 10px
+
+/* ! aboutme CSS */
+p.aboutme_parg
+    text-align: center
+    line-height: 3.7
+
+a.my_email
+    color: $tertiary-color
+    text-decoration: none
+
+a.my_email:hover
+    color: $primary-color
+    text-decoration: line-through
+
+a.dlbutton
+    text-decoration: none
+
+button.dlbutton
+        @extend .buttons
+
+button.dlbutton:hover
+    border-color: $secondary-color
+    background-color: $primary-color
+    color: $secondary-color
+    cursor: pointer
+    text-decoration: line-through
+
+/* !  skills CSS */
+h2.h2_lang
+    text-align: center
+
+ul.list_lang
+    padding: 10px
+    color: $primary-color
+    text-align: center
+    list-style-type: none
+    padding-bottom: 10px
+    columns: 50px 4
+
+/* ! contact CSS */
+section.contact_sect
+    text-align: center
+
+a.contactlink1
+    color: #0773ff
+    text-decoration: none
+
+a.contactlink1:hover
+    color: $tertiary-color
+    text-decoration: line-through
+
+#project_sect
+        @extend .sectionz
+
+#aboutme_sect
+        @extend .sectionz
+
+#skills_sect
+        @extend .sectionz
+
+#contact_sect
+    padding-top: 10px
+    padding-right: 10px
+    padding-bottom: 100px
+    padding-left: 10px
