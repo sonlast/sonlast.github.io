@@ -74,6 +74,10 @@ img.centerimage {
   border-radius: 50%;
 }
 
+h3.descr {
+  text-align: center;
+}
+
 /* ! projects CSS */
 button.ghbtn:hover {
   border-color: #000000;
