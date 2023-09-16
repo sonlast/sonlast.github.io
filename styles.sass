@@ -2,6 +2,8 @@
 $primary-color: #ffffff
 $secondary-color: #000000
 $tertiary-color: #666666
+$small: 300px
+$medium: 900px
 
 .white-text
     color: $primary-color
@@ -73,6 +75,26 @@ img.centerimage
 h3.descr 
     text-align: center
 
+.nav-bar 
+    @media screen and (max-width: $small) 
+        height: 100%
+        width: 300px
+        position: fixed
+        z-index: 1
+        top: 0
+        left: 0
+        background-color: #2196F3
+        overflow-x: hidden
+        padding-top: 20px
+
+.nav-bar a
+    @media screen and (max-width: $small) 
+        padding: 6px 8px 6px 16px
+        width: 100%
+        text-decoration: none
+        font-size: 16px
+        color: white
+        display: block
 /* ! projects CSS */
 button.ghbtn
         @extend .buttons
