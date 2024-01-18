@@ -121,6 +121,16 @@ li {
   padding-bottom: 10px;
 }
 
+a.githlinks {
+  color: #666666;
+  text-decoration: none;
+}
+
+a.githlinks:hover {
+  color: #ffffff;
+  font-size: 20px;
+}
+
 /* ! aboutme CSS */
 p.aboutme_parg {
   text-align: center;
@@ -160,8 +170,8 @@ ul.list_lang {
   text-align: center;
   list-style-type: none;
   padding-bottom: 10px;
-  -moz-columns: 50px 4;
-       columns: 50px 4;
+  -moz-columns: 50px 3;
+       columns: 50px 3;
 }
 
 /* ! contact CSS */
@@ -170,13 +180,20 @@ section.contact_sect {
 }
 
 a.contactlink1 {
-  color: #0773ff;
   text-decoration: none;
 }
 
-a.contactlink1:hover {
+h2.contactme {
   color: #666666;
-  text-decoration: line-through;
+}
+
+.emailcontact {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.emailcontact:hover {
+  color: #666666;
 }
 
 #contact_sect {

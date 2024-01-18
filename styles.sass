@@ -21,7 +21,7 @@ $medium: 900px
     font-family: 'Tektur', cursive
     text-decoration: none
 
-.sectionz 
+.sectionz
     padding: 10px
     text-align: center
 
@@ -72,11 +72,11 @@ img.centerimage
     display: block
     border-radius: 50%
 
-h3.descr 
+h3.descr
     text-align: center
 
-.nav-bar 
-    @media screen and (max-width: $small) 
+.nav-bar
+    @media screen and (max-width: $small)
         height: 100%
         width: 300px
         position: fixed
@@ -88,16 +88,17 @@ h3.descr
         padding-top: 20px
 
 .nav-bar a
-    @media screen and (max-width: $small) 
+    @media screen and (max-width: $small)
         padding: 6px 8px 6px 16px
         width: 100%
         text-decoration: none
         font-size: 16px
         color: white
         display: block
+
 /* ! projects CSS */
 button.ghbtn
-        @extend .buttons
+    @extend .buttons
 
 button.ghbtn:hover
     border-color: $secondary-color
@@ -113,6 +114,14 @@ li
     text-align: center
     list-style-type: none
     padding-bottom: 10px
+
+a.githlinks
+    color: $tertiary-color
+    text-decoration: none
+
+a.githlinks:hover
+    color: $primary-color
+    font-size: 20px
 
 /* ! aboutme CSS */
 p.aboutme_parg
@@ -131,7 +140,7 @@ a.dlbutton
     text-decoration: none
 
 button.dlbutton
-        @extend .buttons
+    @extend .buttons
 
 button.dlbutton:hover
     border-color: $secondary-color
@@ -150,28 +159,33 @@ ul.list_lang
     text-align: center
     list-style-type: none
     padding-bottom: 10px
-    columns: 50px 4
+    columns: 50px 3
 
 /* ! contact CSS */
 section.contact_sect
     text-align: center
 
 a.contactlink1
-    color: #0773ff
     text-decoration: none
 
-a.contactlink1:hover
+h2.contactme
     color: $tertiary-color
-    text-decoration: line-through
+
+.emailcontact
+    color: $primary-color
+    text-decoration: none
+
+.emailcontact:hover
+    color: $tertiary-color 
 
 #project_sect
-        @extend .sectionz
+    @extend .sectionz
 
 #aboutme_sect
-        @extend .sectionz
+    @extend .sectionz
 
 #skills_sect
-        @extend .sectionz
+    @extend .sectionz
 
 #contact_sect
     padding-top: 10px
