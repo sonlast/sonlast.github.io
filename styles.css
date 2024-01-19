@@ -23,9 +23,18 @@ p {
   text-decoration: none;
 }
 
-.sectionz, #skills_sect, #aboutme_sect, #project_sect {
+.sectionz, #aboutme_sect {
   padding: 10px;
   text-align: center;
+}
+
+.contactlinks, .addresscontact, .emailcontact {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactlinkshovered, .addresscontact:hover, .emailcontact:hover {
+  color: #666666;
 }
 
 /* ! UNIVERSAL CSS */
@@ -187,18 +196,21 @@ h2.contactme {
   color: #666666;
 }
 
-.emailcontact {
-  color: #ffffff;
-  text-decoration: none;
+#project_sect {
+  padding: 10px;
+  padding-bottom: 65px;
+  text-align: center;
 }
 
-.emailcontact:hover {
-  color: #666666;
+#skills_sect {
+  padding: 10px;
+  padding-bottom: 65px;
+  text-align: center;
 }
 
 #contact_sect {
   padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 65px;
   padding-left: 10px;
 }/*# sourceMappingURL=styles.css.map */
