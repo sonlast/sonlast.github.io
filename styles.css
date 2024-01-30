@@ -46,7 +46,7 @@ body {
 }
 
 main {
-  padding: 75px 75px 75px;
+  padding: 35px 75px 75px 75px;
 }
 
 h1 {
@@ -66,8 +66,7 @@ a.links:hover {
 }
 
 nav {
-  padding: 15px 20px;
-  float: right;
+  padding: 10px 0px 10px 0px;
 }
 
 /* ! index CSS */
@@ -85,6 +84,11 @@ img.centerimage {
 
 h3.descr {
   text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: end;
 }
 
 @media screen and (max-width: 300px) {
