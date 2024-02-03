@@ -163,13 +163,17 @@ button.dlbutton:hover
 h2.h2_lang
     text-align: center
 
-ul.list_lang
+.list_of_list_lang
+    display: flex
+    justify-content: space-evenly
+
+.list_lang
     padding: 10px
     color: $primary-color
     text-align: center
     list-style-type: none
-    padding-bottom: 10px
-    columns: 50px 3
+    margin-left: auto
+    margin-right: auto
 
 /* ! contact CSS */
 section.contact_sect
@@ -202,7 +206,7 @@ h2.contactme
     @extend .sectionz
 
 #skills_sect
-    padding: 10px
+    padding-top: 10px
     padding-bottom: 65px
     text-align: center
 
