@@ -40,9 +40,10 @@ p {
 /* ! UNIVERSAL CSS */
 body {
   margin: 20px;
-  padding: 10px auto;
+  padding: 10px 0;
   background-color: #000000;
   font-family: "Tektur", cursive;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=206265), auto !important;
 }
 
 main {
@@ -66,7 +67,7 @@ a.links:hover {
 }
 
 nav {
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0;
 }
 
 /* ! index CSS */
@@ -80,6 +81,7 @@ img.centerimage {
   margin: auto;
   display: block;
   border-radius: 50%;
+  filter: drop-shadow(0px 2px 200px #fffddd);
 }
 
 h3.descr {
@@ -131,7 +133,6 @@ li {
   color: #ffffff;
   text-align: center;
   list-style-type: none;
-  padding-bottom: 10px;
 }
 
 a.githlinks {
@@ -172,7 +173,7 @@ button.dlbutton:hover {
   text-decoration: line-through;
 }
 
-/* !  skills CSS */
+/* !	skills CSS */
 h2.h2_lang {
   text-align: center;
 }
@@ -205,20 +206,15 @@ h2.contactme {
 }
 
 #project_sect {
-  padding: 10px;
-  padding-bottom: 65px;
+  padding: 10px 10px 65px 10px;
   text-align: center;
 }
 
 #skills_sect {
-  padding-top: 10px;
-  padding-bottom: 65px;
+  padding: 10px 0 65px 0;
   text-align: center;
 }
 
 #contact_sect {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 65px;
-  padding-left: 10px;
+  padding: 10px 0 65px 0;
 }/*# sourceMappingURL=styles.css.map */

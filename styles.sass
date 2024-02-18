@@ -6,41 +6,42 @@ $small: 300px
 $medium: 900px
 
 .white-text
-    color: $primary-color
-    font-family: 'Tektur', cursive
+	color: $primary-color
+	font-family: 'Tektur', cursive
 
 .buttons
-    margin: 0 auto
-    display: block
-    border-radius: 10px
-    border-color: $primary-color
-    width: 150px
-    height: 30px
-    background-color: $secondary-color
-    color: $primary-color
-    font-family: 'Tektur', cursive
-    text-decoration: none
+	margin: 0 auto
+	display: block
+	border-radius: 10px
+	border-color: $primary-color
+	width: 150px
+	height: 30px
+	background-color: $secondary-color
+	color: $primary-color
+	font-family: 'Tektur', cursive
+	text-decoration: none
 
 .sectionz
-    padding: 10px
-    text-align: center
+	padding: 10px
+	text-align: center
 
 .contactlinks
-    color: $primary-color
-    text-decoration: none
+	color: $primary-color
+	text-decoration: none
 
 .contactlinkshovered
-    color: $tertiary-color
+	color: $tertiary-color
 
 /* ! UNIVERSAL CSS */
 body
-    margin: 20px
-    padding: 10px auto
-    background-color: $secondary-color
-    font-family: 'Tektur', cursive
+	margin: 20px
+	padding: 10px 0
+	background-color: $secondary-color
+	font-family: 'Tektur', cursive
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=206265), auto !important
 
 main
-    padding: 35px 75px 75px 75px
+	padding: 35px 75px 75px 75px
 
 h1,
 h2,
@@ -49,169 +50,164 @@ h4,
 h5,
 h6,
 p
-    @extend .white-text
+	@extend .white-text
 
 h1
-    font: 50px 'Tektur', cursive
-    text-align: center
+	font: 50px 'Tektur', cursive
+	text-align: center
 
 a.links
-    color: $primary-color
-    text-decoration: none
-    padding: 10px
+	color: $primary-color
+	text-decoration: none
+	padding: 10px
 
 a.links:hover
-    color: $tertiary-color
-    text-decoration-line: line-through
+	color: $tertiary-color
+	text-decoration-line: line-through
 
 nav
-    padding: 10px 0px 10px 0px
+	padding: 10px 0
 
 /* ! index CSS */
 h3.intro
-    padding-left: 25%
+	padding-left: 25%
 
 img.centerimage
-    width: 200px
-    height: 200px
-    margin: auto
-    display: block
-    border-radius: 50%
+	width: 200px
+	height: 200px
+	margin: auto
+	display: block
+	border-radius: 50%
+	filter: drop-shadow(0px 2px 200px #fffddd)
 
 h3.descr
-    text-align: center
+	text-align: center
 
 .nav-bar
-    display: flex
-    justify-content: flex-end
+	display: flex
+	justify-content: flex-end
 
 .nav-bar
-    @media screen and (max-width: $small)
-        height: 100%
-        width: 300px
-        position: fixed
-        z-index: 1
-        top: 0
-        left: 0
-        background-color: #2196F3
-        overflow-x: hidden
-        padding-top: 20px
+	@media screen and (max-width: $small)
+		height: 100%
+		width: 300px
+		position: fixed
+		z-index: 1
+		top: 0
+		left: 0
+		background-color: #2196F3
+		overflow-x: hidden
+		padding-top: 20px
 
 .nav-bar a
-    @media screen and (max-width: $small)
-        padding: 6px 8px 6px 16px
-        width: 100%
-        text-decoration: none
-        font-size: 16px
-        color: white
-        display: block
+	@media screen and (max-width: $small)
+		padding: 6px 8px 6px 16px
+		width: 100%
+		text-decoration: none
+		font-size: 16px
+		color: white
+		display: block
 
 /* ! projects CSS */
 button.ghbtn
-    @extend .buttons
+	@extend .buttons
 
 button.ghbtn:hover
-    border-color: $secondary-color
-    background-color: $primary-color
-    color: $secondary-color
-    cursor: pointer
-    text-decoration: line-through
+	border-color: $secondary-color
+	background-color: $primary-color
+	color: $secondary-color
+	cursor: pointer
+	text-decoration: line-through
 
 ul.prjctlst,
 li
-    padding: 10px
-    color: $primary-color
-    text-align: center
-    list-style-type: none
-    padding-bottom: 10px
+	padding: 10px
+	color: $primary-color
+	text-align: center
+	list-style-type: none
 
 a.githlinks
-    color: $tertiary-color
-    text-decoration: none
+	color: $tertiary-color
+	text-decoration: none
 
 a.githlinks:hover
-    color: $primary-color
-    font-size: 20px
+	color: $primary-color
+	font-size: 20px
 
 /* ! aboutme CSS */
 p.aboutme_parg
-    text-align: center
-    line-height: 3.7
+	text-align: center
+	line-height: 3.7
 
 a.my_email
-    color: $tertiary-color
-    text-decoration: none
+	color: $tertiary-color
+	text-decoration: none
 
 a.my_email:hover
-    color: $primary-color
-    text-decoration: line-through
+	color: $primary-color
+	text-decoration: line-through
 
 a.dlbutton
-    text-decoration: none
+	text-decoration: none
 
 button.dlbutton
-    @extend .buttons
+	@extend .buttons
 
 button.dlbutton:hover
-    border-color: $secondary-color
-    background-color: $primary-color
-    color: $secondary-color
-    cursor: pointer
-    text-decoration: line-through
+	border-color: $secondary-color
+	background-color: $primary-color
+	color: $secondary-color
+	cursor: pointer
+	text-decoration: line-through
 
-/* !  skills CSS */
+/* !	skills CSS */
 h2.h2_lang
-    text-align: center
+	text-align: center
 
 .list_of_list_lang
-    display: flex
-    justify-content: space-evenly
+	display: flex
+	justify-content: space-evenly
 
 .list_lang
-    padding: 10px
-    color: $primary-color
-    text-align: center
-    list-style-type: none
-    margin-left: auto
-    margin-right: auto
+	padding: 10px
+	color: $primary-color
+	text-align: center
+	list-style-type: none
+	margin-left: auto
+	margin-right: auto
 
 /* ! contact CSS */
 section.contact_sect
-    text-align: center
+	text-align: center
 
 a.contactlink1
-    text-decoration: none
+	text-decoration: none
 
 h2.contactme
-    color: $tertiary-color
+	color: $tertiary-color
 
 .emailcontact
-    @extend .contactlinks
+	@extend .contactlinks
 
 .emailcontact:hover
-    @extend .contactlinkshovered
+	@extend .contactlinkshovered
 
 .addresscontact
-    @extend .contactlinks
+	@extend .contactlinks
 
 .addresscontact:hover
-    @extend .contactlinkshovered
+	@extend .contactlinkshovered
 
 #project_sect
-    padding: 10px
-    padding-bottom: 65px
-    text-align: center
+	padding: 10px 10px 65px 10px
+	text-align: center
 
 #aboutme_sect
-    @extend .sectionz
+	@extend .sectionz
 
 #skills_sect
-    padding-top: 10px
-    padding-bottom: 65px
-    text-align: center
+	padding: 10px 0 65px 0
+	text-align: center
 
 #contact_sect
-    padding-top: 10px
-    padding-right: 10px
-    padding-bottom: 65px
-    padding-left: 10px
+	padding: 10px 0 65px 0
